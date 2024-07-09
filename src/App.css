@@ -1,7 +1,34 @@
-.App {
-  text-align: center;
+html{
+  direction: rtl;
+  height: 100vh;
+}
+body{
+  height: 100vh;
+}
+#root{
+  height: 100vh;
 }
 
+h1 h2 {
+  color: aliceblue;
+}
+.App {
+  text-align: center;
+  background-color: #180d01;
+  background-image: url(C:\Users\a7mad\Desktop\vsFolder\React\PrayerTime\public\MasjidBackground2.png);
+  background-size:100%; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  min-height: '100vh',
+}
+@media (max-width: 768px) {
+  .App {
+    background-size: 200%; /* Increase the size to zoom in */
+  }
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
