@@ -9,13 +9,10 @@ body{
   height: 100vh;
 }
 
-h1 h2 {
-  color: aliceblue;
-}
 .App {
   text-align: center;
   background-color: #180d01;
-  background-image: url(C:\Users\a7mad\Desktop\vsFolder\React\PrayerTime\public\MasjidBackground2.png);
+  background-image: url(assets/MasjidBackground2.png);
   background-size:100%; 
   background-repeat: no-repeat;
   background-position: center;
